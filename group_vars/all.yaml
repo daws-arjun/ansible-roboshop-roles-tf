@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb.anuarjun.space
+REDIS_HOST: redis.anuarjun.space
+CATALOGUE_HOST: catalogue.anuarjun.space
+CART_HOST: cart.anuarjun.space
+USER_HOST: user.anuarjun.space
+RABBITMQ_HOST: rabbitmq.anuarjun.space
+MYSQL_HOST: mysql.anuarjun.space
+SHIPPING_HOST: shipping.anuarjun.space
+PAYMENT_HOST: payment.anuarjun.space
