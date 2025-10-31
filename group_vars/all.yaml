@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.anuarjun.space
-REDIS_HOST: redis.anuarjun.space
-CATALOGUE_HOST: catalogue.anuarjun.space
-CART_HOST: cart.anuarjun.space
-USER_HOST: user.anuarjun.space
-RABBITMQ_HOST: rabbitmq.anuarjun.space
-MYSQL_HOST: mysql.anuarjun.space
-SHIPPING_HOST: shipping.anuarjun.space
-PAYMENT_HOST: payment.anuarjun.space
+MONGODB_HOST: mongodb-{{ env }}.anuarjun.space # mongodb-dev.anuarjun.space
+REDIS_HOST: redis-{{ env }}.anuarjun.space
+CATALOGUE_HOST: catalogue-{{ env }}.anuarjun.space
+CART_HOST: cart-{{ env }}.anuarjun.space
+USER_HOST: user-{{ env }}.anuarjun.space
+RABBITMQ_HOST: rabbitmq-{{ env }}.anuarjun.space
+MYSQL_HOST: mysql-{{ env }}.anuarjun.space
+SHIPPING_HOST: shipping-{{ env }}.anuarjun.space
+PAYMENT_HOST: payment-{{ env }}.anuarjun.space
