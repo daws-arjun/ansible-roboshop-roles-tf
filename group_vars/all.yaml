@@ -1,9 +1,10 @@
-MONGODB_HOST: mongodb-{{ env }}.anuarjun.space # mongodb-dev.anuarjun.space
+MONGODB_HOST: mongodb-{{ env }}.anuarjun.space
 REDIS_HOST: redis-{{ env }}.anuarjun.space
-CATALOGUE_HOST: catalogue-{{ env }}.anuarjun.space
-CART_HOST: cart-{{ env }}.anuarjun.space
-USER_HOST: user-{{ env }}.anuarjun.space
 RABBITMQ_HOST: rabbitmq-{{ env }}.anuarjun.space
 MYSQL_HOST: mysql-{{ env }}.anuarjun.space
-SHIPPING_HOST: shipping-{{ env }}.anuarjun.space
-PAYMENT_HOST: payment-{{ env }}.anuarjun.space
+
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.anuarjun.space
+CART_HOST: cart.backend-alb-{{ env }}.anuarjun.space
+USER_HOST: user.backend-alb-{{ env }}.anuarjun.space
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.anuarjun.space
+PAYMENT_HOST: payment.backend-alb-{{ env }}.anuarjun.space
